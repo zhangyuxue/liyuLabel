@@ -24,7 +24,7 @@ public:
     virtual QVector<QPointF> getPoints(int indexStart,int indexEnd);
 
     virtual void showAttachWidget(bool isShow);
-    virtual void attachWidget(TagChooseMainWdg* wdg);
+    //virtual void attachWidget(TagChooseMainWdg* wdg);
 
 protected:
     QPolygonF *mPolygon;

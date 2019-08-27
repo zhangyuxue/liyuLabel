@@ -19,7 +19,7 @@
 
 #include "AnnotationArea.h"
 #include <QDebug>
-#include "../numergroupwdg.h"
+//#include "../numergroupwdg.h"
 
 namespace kImageAnnotator {
 
@@ -405,9 +405,9 @@ void AnnotationArea::addItemAtPosition(const QPointF &position)
     if(mCurrentItem->toolType() == ToolTypes::NumberGroup)
     {
        addPointToCurrentItem(position);
-       mCurrentItem->attachWidget(new TagChooseMainWdg);
-       mCurrentItem->showAttachWidget(true);
-       mCurrentItem->update();
+//       mCurrentItem->attachWidget(new TagChooseMainWdg);
+//       mCurrentItem->showAttachWidget(true);
+//       mCurrentItem->update();
     }
 }
 

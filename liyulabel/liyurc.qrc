@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resouce/3D.png</file>
+        <file>resouce/3DBlue.png</file>
+        <file>resouce/3DRed.png</file>
+        <file>resouce/lyClient_PC.ico</file>
+        <file>resouce/lyClient_PC.png</file>
+        <file>resouce/Picture.png</file>
+        <file>resouce/PictureBlue.png</file>
+        <file>resouce/PictureRed.png</file>
+        <file>resouce/Video.png</file>
+        <file>resouce/VideoBlue.png</file>
+        <file>resouce/VideoRed.png</file>
+        <file>resouce/Voice.png</file>
+        <file>resouce/VoiceBlue.png</file>
+        <file>resouce/VoiceRed.png</file>
+    </qresource>
+</RCC>

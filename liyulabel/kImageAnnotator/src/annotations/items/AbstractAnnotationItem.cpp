@@ -55,8 +55,8 @@ AbstractAnnotationItem::~AbstractAnnotationItem()
 	delete mProperties;
 	delete mShape;
 	delete mStroker;
-    if(mAttachWidget != nullptr)
-        mAttachWidget->deleteLater();
+//    if(mAttachWidget != nullptr)
+//        mAttachWidget->deleteLater();
 
 }
 

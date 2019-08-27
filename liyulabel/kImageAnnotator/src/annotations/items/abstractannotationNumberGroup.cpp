@@ -109,18 +109,18 @@ void AbstractAnnotationNumberGroup::scale(qreal sx, qreal sy)
 
 void AbstractAnnotationNumberGroup::showAttachWidget(bool isShow)
 {
-    if(isShow)
-    {
-        mAttachWidget->show();
-    }
-    else {
-        mAttachWidget->hide();
-    }
+//    if(isShow)
+//    {
+//        mAttachWidget->show();
+//    }
+//    else {
+//        mAttachWidget->hide();
+//    }
 }
 
-void AbstractAnnotationNumberGroup::attachWidget(TagChooseMainWdg* wdg)
-{
-    mAttachWidget = wdg;
-}
+//void AbstractAnnotationNumberGroup::attachWidget(TagChooseMainWdg* wdg)
+//{
+//    mAttachWidget = wdg;
+//}
 
 }

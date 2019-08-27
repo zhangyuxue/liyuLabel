@@ -30,7 +30,7 @@
 #include "src/common/enum/FillTypes.h"
 #include "src/common/enum/ToolTypes.h"
 #include "src/annotations/misc/ShadowEffect.h"
-#include "tagchoosemainwdg.h"
+//#include "tagchoosemainwdg.h"
 
 namespace kImageAnnotator {
 
@@ -57,7 +57,7 @@ public:
     virtual void setPointShare(bool shared){isshared=shared;}
     virtual int nearSharedPoints(QPointF point){return -1;}
     virtual void showAttachWidget(bool isShow){}
-    virtual void attachWidget(TagChooseMainWdg* wdg){}
+    //virtual void attachWidget(TagChooseMainWdg* wdg){}
     virtual void setGroupNumers(int numbers){}
 
 protected:
@@ -81,7 +81,7 @@ protected:
 
     //关键点组
     int mGroupnumbers=0;
-    TagChooseMainWdg* mAttachWidget=nullptr;
+    //TagChooseMainWdg* mAttachWidget=nullptr;
 };
 
 } // namespace kImageAnnotator

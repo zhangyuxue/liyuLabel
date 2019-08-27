@@ -41,7 +41,7 @@
 #include "src/annotations/undo/ScaleCommand.h"
 #include "src/annotations/undo/PasteCommand.h"
 #include "src/annotations/misc/AnnotationContextMenu.h"
-#include "tagchoosemainwdg.h"
+//#include "tagchoosemainwdg.h"
 
 namespace kImageAnnotator {
 
