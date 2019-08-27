@@ -12,3 +12,8 @@ ly_Factory::~ly_Factory()
 {
     delete ui;
 }
+
+void ly_Factory::on_pushButton_pic_clicked()
+{
+    emit facotryPic();
+}

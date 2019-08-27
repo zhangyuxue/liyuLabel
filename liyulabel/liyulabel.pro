@@ -28,15 +28,20 @@ include(kImageAnnotator/kImageAnnotator.pri)
 SOURCES += \
         main.cpp \
         ly_mainwindow.cpp \
-    ly_factory.cpp
+    ly_factory.cpp \
+    pictureModule/ly_picannotation.cpp \
+    pictureModule/ly_graphicview.cpp
 
 HEADERS += \
         ly_mainwindow.h \
-    ly_factory.h
+    ly_factory.h \
+    pictureModule/ly_picannotation.h \
+    pictureModule/ly_graphicview.h
 
 FORMS += \
         ly_mainwindow.ui \
-    ly_factory.ui
+    ly_factory.ui \
+    pictureModule/ly_picannotation.ui
 
 RESOURCES += \
     liyurc.qrc

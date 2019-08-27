@@ -11,9 +11,15 @@ class ly_Factory : public QWidget
 {
     Q_OBJECT
 
+signals:
+    void facotryPic();
+
 public:
     explicit ly_Factory(QWidget *parent = 0);
     ~ly_Factory();
+
+public slots:
+       void on_pushButton_pic_clicked();
 
 private:
     Ui::ly_Factory *ui;
