@@ -19,6 +19,14 @@ public:
     explicit ly_PicAnnotation(QWidget *parent = 0);
     ~ly_PicAnnotation();
 
+public slots:
+    void on_pushButton_pen_clicked();
+    void on_pushButton_line_clicked();
+    void on_pushButton_rect_clicked();
+    void on_pushButton_number_clicked();
+private:
+    void uncheckedTools();
+protected:
     Config* mConfig = nullptr ;
     AnnotationArea* mAnnotationArea = nullptr;
     ly_GraphicView* mView = nullptr;

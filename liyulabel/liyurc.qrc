@@ -14,5 +14,9 @@
         <file>resouce/Voice.png</file>
         <file>resouce/VoiceBlue.png</file>
         <file>resouce/VoiceRed.png</file>
+        <file>resouce/back_black.png</file>
+        <file>resouce/picnull.png</file>
+        <file>resouce/open.png</file>
+        <file>resouce/save.png</file>
     </qresource>
 </RCC>
